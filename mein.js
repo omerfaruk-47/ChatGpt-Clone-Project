@@ -5,7 +5,7 @@ const themeButton = document.querySelector("#theme-btn");
 const deleteButton = document.querySelector("#delete-btn");
 // console.log(chatInput);
 let userText = null;
-const API_KEY = "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";
+const API_KEY = "";
 const initialHeight = chatInput.scrollHeight;
 
 // sayfa yüklendiğinde yerel depodan(localStorage) veri yükler
@@ -40,7 +40,7 @@ const createElement = (html, className) => {
 };
 
 const getChatResponse = async (incomingChatDiv) => {
-  const API_URL = "https://api.openai.com/v1/completions";
+  const API_URL = "";
   const pElement = document.createElement("p");
   // api talebi için özelliklerini ve verileri tanımlama
   const requestOptions = {
